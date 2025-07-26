@@ -3,12 +3,14 @@
 int main(){
 
 	int num = 0;
+	int digit = 0;
 
 	printf("Enter the number:");
 	scanf("%d" , &num);
 
 	while(num){
-		if(num % 10 == 4 || num % 10 == 7 && num % 10 != 8){}
+		digit = num % 10;
+		if(digit == 4 || digit == 7){}
 		else{
 			printf("Number isnt lucky number:\n");
 			return 0;
