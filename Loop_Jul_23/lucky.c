@@ -10,8 +10,7 @@ int main(){
 
 	while(num){
 		digit = num % 10;
-		if(digit == 4 || digit == 7){}
-		else{
+		if(digit != 4 || digit != 7){
 			printf("Number isnt lucky number:\n");
 			return 0;
 		}
